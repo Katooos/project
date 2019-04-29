@@ -1,0 +1,686 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+/* ----- HEADER ------ */
+
+.main-header {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    position: relative;
+}
+
+.main-header-wrapper {
+    float: left;
+}
+
+.main-header-title {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.main-header-list {
+    padding: 0px;
+}
+
+.main-header-list-item {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-type: none;
+}
+
+.main-header-list-item:before {
+    content: url(/img/check_icon.png);
+}
+
+.main-header-product-photo {
+    display: block;
+    margin: 0 0 0 711px;
+    width: 469px;
+    height: 214px;
+}
+
+
+/* ----- SECTION 1 (PRODUCT) ------ */
+
+.product {
+    clear: both;
+    display: block;
+    padding: 50px;
+}
+
+.product-wrapper {
+    float: left;
+}
+
+.product-title {
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.product-text {
+    width: 649px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product-video {
+    float: left;
+    padding-left: 101px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+/* ----- SECTION 2 (DIGNITY) ------ */
+
+.dignity {
+    clear: both;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    display: block;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.dignity-list {
+    width: 540px;
+    margin: 0;
+    float: left;
+    list-style-type: none;
+    padding: 0 0 0 46px;
+}
+
+.dignity-list:nth-child(3) {
+    float: right;
+}
+
+.dignity-list-item {
+    margin: 0 0 40px 0;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+}
+
+.dignity-list:nth-child(2) > .dignity-list-item:nth-child(3),
+.dignity-list:nth-child(3) > .dignity-list-item:nth-child(3) {
+    margin: 0;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    left: -45px;
+}
+
+
+/* ----- SECTION 3 (SCRINSHOTS) ------ */
+
+.screenshots {
+    clear: both;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.screenshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screenshots-title {
+    display: block;
+    width: 100%;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.screenshots-list {
+    height: 330px;
+}
+
+.screenshots-item {
+    padding: 0;
+    margin: 0;
+}
+
+.screenshots-item:nth-child(even) {
+    margin-left: 16px;
+    display: inline-block;
+}
+
+.screenshots-photo {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.screenshots-text {
+    float: left;
+}
+
+.screenshots-text h2 {
+    width: 310px;
+    height: 23px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 0 15px 0;
+}
+
+.screenshots-text p {
+    width: 359px;
+    height: 108px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+
+/* ----- SECTION 3 (REVIEWS) ------ */
+
+
+.reviews {
+    clear: both;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.reviews-title {
+    display: block;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.reviews-list {
+    height: 300px;
+}
+
+.reviews-item {
+    padding: 0;
+    margin: 0;
+}
+
+.reviews-item:nth-child(even) {
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.reviews-photo {
+    float: left;
+    margin: 0;
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+}
+
+.reviews-text {
+    float: left;
+    margin: 0 0 24px 16px;
+    background-image: url(/img/bg_review.png);
+}
+
+.reviews-text h3 {
+    width: 67px;
+    height: 10px;
+    color: #989898;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 389px 16px 27px;
+}
+
+.reviews-text p {
+    width: 436px;
+    height: 64px;
+    color: #333333;
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 16px 20px 15px 27px;
+}
+
+
+/* ----- SECTION 4 (BUY-IT-NOW) ------ */
+
+.buy-it-now {
+    clear: both;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.buy-it-now:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.buy-it-now-title {
+    display: block;
+    width: 100%;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.standart {
+    background-color: #445161;
+    width: 300px;
+    height: 306px;
+    border-radius: 5px;
+    margin: 222px 45px 0 95px;
+    position: relative;
+    float: left;
+}
+
+.standart-title {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 16px 0 0 0;
+}
+
+.standart-cost {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 18px 0 18px 0;
+}
+
+.standart-list {
+    display: block;
+    list-style-position: inside;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 38px 0 20px;
+}
+
+.standart-button {
+    display: block;
+    background-color: #ffffff;
+    width: 260px;
+    color: #445161;
+    text-align: center;
+    font-family: "Arial - Bold MT";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 20px 20px 20px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+}
+
+.standart-button:hover {
+    background-color: bisque;
+    color: darkslateblue;
+}
+
+.standart-button:active {
+    background-color: darkgray;
+    color: firebrick;
+}
+
+
+
+
+.premium {
+    background-color: #445161;
+    width: 300px;
+    height: 404px;
+    border-radius: 5px;
+    margin: 124px 45px 0 0;
+    position: relative;
+    float: left;
+}
+
+.premium-title {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 17px 0 17px 0;
+}
+
+.premium-cost {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 18px 0 18px 0;
+}
+
+.premium-list {
+    display: block;
+    list-style-position: inside;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 38px 0 20px;
+}
+
+.premium-button {
+    display: block;
+    background-color: #ffffff;
+    width: 260px;
+    color: #445161;
+    text-align: center;
+    font-family: "Arial - Bold MT";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 20px 20px 20px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+}
+
+.premium-button:hover {
+    background-color: bisque;
+    color: darkslateblue;
+}
+
+.premium-button:active {
+    background-color: darkgray;
+    color: firebrick;
+}
+
+
+
+.lux {
+    background-color: #445161;
+    width: 300px;
+    height: 499px;
+    border-radius: 5px;
+    margin: 29px 95px 0 0;
+    position: relative;
+    float: left;
+}
+
+.lux-title {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 17px 0 17px 0;
+
+}
+
+.lux-cost {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 18px 0 18px 0;
+}
+
+.lux-list {
+    display: block;
+    list-style-position: inside;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 38px 0 20px;
+}
+
+.lux-button {
+    display: block;
+    background-color: #ffffff;
+    width: 260px;
+    color: #445161;
+    text-align: center;
+    font-family: "Arial - Bold MT";
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 20px 20px 20px;
+    padding: 10px 0 10px 0;
+    position: absolute;
+}
+
+.lux-button:hover {
+    background-color: bisque;
+    color: darkslateblue;
+}
+
+.lux-button:active {
+    background-color: darkgray;
+    color: firebrick;
+}
+
+
+/* ----- FOOTER ------ */
+
+/* ----- SECTION 5 (CONTACTS) ------ */
+
+.contacts {
+    clear: both;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #445161;
+}
+
+.contacts:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.contacts-form {
+    float: left;
+    margin: 31px 0 0 199px;
+}
+
+.contacts-title {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.input {
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0 0 21px 0;
+}
+
+.message {
+    width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+}
+
+.form-button {
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 0 0 0 180px;
+}
+
+.contacts-links {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   margin: 39px 0 29px 46px;
+}
+
+.skype {
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+.skype:before {
+    content: url(/img/skype_icon.png);
+    position: absolute;
+    margin: 0 0 0 -30px;
+}
+
+.icq {
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+.icq:before {
+    content: url(/img/icq_icon.png);
+    position: absolute;
+    margin: 0 0 0 -30px;
+}
+
+.email {
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+.email:before {
+    content: url(/img/email_icon.png);
+    position: absolute;
+    margin: 0 0 0 -30px;
+}
+
+.phone {
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+.phone:before {
+    content: url(/img/phone_icon.png);
+    position: absolute;
+    margin: 0 0 0 -30px;
+}
+
+.social-media {
+    display: inline-block;
+    margin: 37px 0 0 0;
+}
+
+.copyright {
+    text-align: center;
+    
+}
